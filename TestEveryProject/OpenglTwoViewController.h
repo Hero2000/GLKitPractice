@@ -7,7 +7,7 @@
 //
 
 #import <GLKit/GLKit.h>
-#import <GLKit/GLKit.h>
+
 @interface OpenglTwoViewController : GLKViewController
 
 
