@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2B175F1D41EFA80060C458 /* OpenglTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B175E1D41EFA80060C458 /* OpenglTwoViewController.m */; };
 		4C4068EB1D41C86400DBE8DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4068EA1D41C86400DBE8DF /* QuartzCore.framework */; };
 		4C4068ED1D41C86A00DBE8DF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4068EC1D41C86A00DBE8DF /* OpenGLES.framework */; };
 		4C4068EF1D41C86F00DBE8DF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4068EE1D41C86F00DBE8DF /* GLKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C2B175D1D41EFA80060C458 /* OpenglTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglTwoViewController.h; sourceTree = "<group>"; };
+		4C2B175E1D41EFA80060C458 /* OpenglTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenglTwoViewController.m; sourceTree = "<group>"; };
 		4C4068EA1D41C86400DBE8DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4C4068EC1D41C86A00DBE8DF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		4C4068EE1D41C86F00DBE8DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 				4CAFF4C51D3384A800BE2ADF /* ThirdViewController.m */,
 				4C4068F01D41C8D200DBE8DF /* OpenglController.h */,
 				4C4068F11D41C8D200DBE8DF /* OpenglController.m */,
+				4C2B175D1D41EFA80060C458 /* OpenglTwoViewController.h */,
+				4C2B175E1D41EFA80060C458 /* OpenglTwoViewController.m */,
 				4C87A8A01D20D5DA00332577 /* csv.csv */,
 				4C87A8761D20D53100332577 /* Main.storyboard */,
 				4C87A8791D20D53100332577 /* Assets.xcassets */,
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2B175F1D41EFA80060C458 /* OpenglTwoViewController.m in Sources */,
 				4C87A8751D20D53100332577 /* ViewController.m in Sources */,
 				4C4068F21D41C8D200DBE8DF /* OpenglController.m in Sources */,
 				4C87A8721D20D53100332577 /* AppDelegate.m in Sources */,

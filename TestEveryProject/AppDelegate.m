@@ -10,7 +10,7 @@
 #import "ViewController.h"
 
 #import "ThirdViewController.h"
-
+#import "OpenglTwoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -34,7 +34,7 @@
     
    
     
-    OpenglController *controller = [[OpenglController alloc] init];
+    OpenglTwoViewController *controller = [[OpenglTwoViewController alloc] init];
 //    controller.delegate = self;
 
     
