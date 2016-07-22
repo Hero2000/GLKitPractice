@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+#import "ThirdViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,10 +19,43 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    /*
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    ThirdViewController *root = [[ThirdViewController alloc]init];
+    //    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:root];//先将root添加在navigation上
+    [_window setRootViewController:root];//navigation加在window上
+    [self.window makeKeyAndVisible];
+    */
+    
+
+    
+   
+    
+    OpenglController *controller = [[OpenglController alloc] init];
+//    controller.delegate = self;
+
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = controller;
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    
     return YES;
 }
-
+//- (void)glkViewControllerUpdate:(GLKViewController *)controller {
+//    //  NSLog(@"in glkViewControllerUpdate");
+//}
+//
+//- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
+//    //  NSLog(@"in glkView:drawInRect:");
+//    glClearColor(0.5, 1, 1, 0.5);
+//    glClear(GL_COLOR_BUFFER_BIT);
+//}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
